@@ -1,3 +1,7 @@
+
+body p {
+    font-size: 18px;
+}
 .page-container {
     background-color: hsl(210, 100%, 14%);
 }
@@ -9,4 +13,10 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.price-point {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

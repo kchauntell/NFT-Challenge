@@ -16,7 +16,7 @@ body p {
     padding: 5%;
     border-radius: 10px;
     margin: 20%;
-    box-shadow: 0px 0px 30px    black
+    box-shadow: 0px 0px 75px rgb(227, 60, 60)
 }
 
 .attribution {
@@ -45,4 +45,24 @@ img {
     border-radius: 10px;
     width: 100%;
     height: 100%;
+}
+#equilibrium {
+    display: inline-flexbox;
+    color: rgb(227, 60, 60);
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#description {
+    color: slategray;
+}
+
+.price-point {
+    color: slategray;
+}
+
+.attribution {
+    color: slategray;
 }

@@ -14,7 +14,7 @@ body p {
     text-align: left;
     background-color: hsl(241, 91%, 18%);
     padding: 5%;
-    border-radius: 10px;
+    border-radius: 55px;
     margin: 20%;
     box-shadow: 0px 0px 75px rgb(227, 60, 60)
 }
@@ -42,27 +42,39 @@ body p {
 
 img {
     display: inline-flexbox;
-    border-radius: 10px;
+    border-radius: 45px;
     width: 100%;
     height: 100%;
+    box-shadow: 0px 0px 15px peachpuff
 }
 #equilibrium {
+    margin-top: 20px;
     display: inline-flexbox;
     color: rgb(227, 60, 60);
     font-family: 'Luxurious Roman', cursive;
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
 
 }
 
 #description {
-    color: slategray;
+    color: peachpuff;
+    font-family: 'Domine', serif;
+    display: inline-flexbox;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .price-point {
+    display: flex;
+    justify-content: center;
     color: slategray;
+    text-shadow: rgb(5, 243, 33) 1px 0 10px;
+    font-size: 25px;
+    margin-top: 5px;
 }
 
 .attribution {
     color: slategray;
+    font-size: 15px;
 }
